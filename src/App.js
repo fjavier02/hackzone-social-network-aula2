@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import Routes from './routes';
 
-
+import Header from './components/Header';
 import history from './services/history';
 import {theme} from './styles/theme';
 
@@ -13,6 +13,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <BrowserRouter>
+        <Header/>
         <Routes/>
         <GlobalStyle/>
       </BrowserRouter>
