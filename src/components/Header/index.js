@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png';
 
 const Header = () =>(
   <Container>
-    <img src={logo}></img>
+    <img src={logo} alt="logo HackZone"></img>
   </Container>
 );
 

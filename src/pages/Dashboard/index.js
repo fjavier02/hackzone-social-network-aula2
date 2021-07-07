@@ -1,7 +1,6 @@
 import React from 'react';
+import { Perfil } from '../../components';
 
-const Dashboard =() =>{
-  return(<h1>Dashboard</h1>)
-}
+const Dashboard = () => <Perfil />;
 
 export default Dashboard;

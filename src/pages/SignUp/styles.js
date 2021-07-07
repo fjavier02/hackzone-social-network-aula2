@@ -11,7 +11,7 @@ export const PhrasesContainer = styled.div`
   max-width: 640px;
 `;
 
-export const FormContainer = styled.div`
+export const FormContainer = styled.form`
   box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 53px 30px;
